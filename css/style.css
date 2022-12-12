@@ -8,7 +8,7 @@
 }
 
 header {
-    height: 75px;
+    height: 65px;
     width: 100%;
     background-color: rgb(50, 51, 52);
     outline-style: solid;
@@ -16,6 +16,11 @@ header {
     outline-width: 5px;
     text-align: center;
     font-size: 2.25rem;
+}
+
+.mainindex {
+    display: flex;
+    justify-content: center;
 }
 
 #main_picture {
@@ -36,6 +41,6 @@ header {
     display: grid;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 40px;
+    margin-top: 125px;
     grid-template-columns: 1fr 1fr 1fr
 }
