@@ -3,16 +3,39 @@
     font-family: 'solway', cursive;
     font-size: 1.1rem;
     color: white;
+    padding: 0px;
+    margin: 0px;
 }
 
-h1 {
+header {
+    height: 75px;
+    width: 100%;
+    background-color: rgb(50, 51, 52);
+    outline-style: solid;
+    outline-color: mediumaquamarine;
+    outline-width: 5px;
     text-align: center;
     font-size: 2.25rem;
+}
+
+#main_picture {
+    width: 350px;
+    height: auto;
+    border-style: solid;
+    border-color: mediumaquamarine;
+    border-width: 5px;
+    border-radius: 25px;
+}
+
+#main_picture:hover {
+    border-width: 8px;
+    border-color: rgb(150, 255, 210);
 }
 
 #main_wrapper {
     display: grid;
     padding-left: 40px;
     padding-right: 40px;
-    grid-template-columns: 50%;
+    padding-top: 40px;
+    grid-template-columns: 1fr 1fr 1fr
 }
