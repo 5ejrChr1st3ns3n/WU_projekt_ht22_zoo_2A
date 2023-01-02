@@ -23,6 +23,11 @@ header {
     font-size: 3rem;
 }
 
+
+
+
+
+/*-------------------main section*/
 #main_index_wrapper {
     display: grid;
     padding-left: 40px;
@@ -51,6 +56,10 @@ header {
     border-color: rgb(150, 255, 210);
 }
 
+
+
+
+/*-------------------background picture*/
 #background_wrapper {
     width: 100%;
     padding-top: 100px;
@@ -63,7 +72,7 @@ header {
     outline-color: mediumaquamarine;
 }
 
-/*----------------------------------------------------------menu site----------------------------------------------------------------*/
+/*------------------------------------------------------------menu site------------------------------------------------------------*/
 
 #main_menu_wrapper {
     display: grid;
@@ -82,3 +91,5 @@ header {
     width: 400px;
     height: 450px;
 }
+
+/*------------------------------------------------------------animal site------------------------------------------------------------*/
