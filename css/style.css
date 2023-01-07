@@ -76,10 +76,20 @@ header {
 
 #main_menu_wrapper {
     display: grid;
-    padding-top: 200px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    padding-top: 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     place-items: center;
+}
+
+.food_item {
+    outline-style: solid;
+    outline-width: 5px;
+    border-radius: 25px;
+    outline-color: mediumaquamarine;
+    outline-offset: -5px;
+    width: 400px;
+    height: 800px;
+
 }
 
 #food_img {
@@ -88,7 +98,7 @@ header {
     border-radius: 25px;
     border-color: mediumaquamarine;
     width: 400px;
-    height: 450px;
+    height: 400px;
 }
 
 /*------------------------------------------------------------animal site------------------------------------------------------------*/
