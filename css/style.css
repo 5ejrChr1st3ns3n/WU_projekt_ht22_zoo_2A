@@ -140,3 +140,8 @@ header {
     border-radius: 25px;
     outline-color: mediumaquamarine;
 }
+
+.animal_right {
+    display: flex;
+    justify-content: end;
+}
