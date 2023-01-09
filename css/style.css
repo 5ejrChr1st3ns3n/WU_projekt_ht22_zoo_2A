@@ -28,6 +28,7 @@ header {
 
 
 /*-------------------main section*/
+
 #main_index_wrapper {
     display: grid;
     padding-left: 40px;
@@ -60,6 +61,7 @@ header {
 
 
 /*-------------------background picture*/
+
 #background_wrapper {
     width: 100%;
     padding-top: 100px;
@@ -71,6 +73,8 @@ header {
     outline-width: 5px;
     outline-color: mediumaquamarine;
 }
+
+
 
 /*------------------------------------------------------------menu site------------------------------------------------------------*/
 
@@ -89,7 +93,6 @@ header {
     outline-offset: -5px;
     width: 400px;
     height: 800px;
-
 }
 
 #food_img {
@@ -99,6 +102,19 @@ header {
     border-color: mediumaquamarine;
     width: 400px;
     height: 400px;
+}
+
+#restaurant_wrapper {
+    display: flex;
+    padding-top: 175px;
+    width: 100%;
+}
+
+#seating_img {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 25px;
+    border-color: mediumaquamarine;
 }
 
 /*----------------------------------------------------------animal site------------------------------------------------------------*/
