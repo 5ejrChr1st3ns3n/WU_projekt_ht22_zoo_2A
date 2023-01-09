@@ -125,3 +125,18 @@ header {
 }
 
 /*----------------------------------------------------------animal site------------------------------------------------------------*/
+
+#main_animal_wrapper {
+    padding-top: 100px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#animal_img {
+    width: 365px;
+    height: auto;
+    outline-style: solid;
+    outline-width: 5px;
+    border-radius: 25px;
+    outline-color: mediumaquamarine;
+}
