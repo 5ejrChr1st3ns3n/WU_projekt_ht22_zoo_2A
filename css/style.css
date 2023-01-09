@@ -105,9 +105,14 @@ header {
 }
 
 #restaurant_wrapper {
-    display: flex;
+    display: grid;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
     padding-top: 175px;
     width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
 }
 
 #seating_img {
