@@ -23,7 +23,17 @@ header {
     font-size: 3rem;
 }
 
-
+#footer {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(50, 51, 52);
+    outline-style: solid;
+    outline-color: mediumaquamarine;
+    outline-width: 5px;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 500px;
+}
 
 
 
@@ -93,6 +103,7 @@ header {
     outline-offset: -5px;
     width: 400px;
     height: 800px;
+    align-items: center;
 }
 
 #food_img {
@@ -122,6 +133,12 @@ header {
     border-width: 5px;
     border-radius: 25px;
     border-color: mediumaquamarine;
+}
+
+#chefs {
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
 }
 
 /*----------------------------------------------------------animal site------------------------------------------------------------*/
