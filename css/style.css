@@ -27,7 +27,7 @@ header {
 
 
 
-/*-------------------main section*/
+/*------------------------------------------------------------main site------------------------------------------------------------*/
 
 #main_index_wrapper {
     display: grid;
@@ -135,13 +135,22 @@ header {
 #animal_img {
     width: 365px;
     height: auto;
-    outline-style: solid;
-    outline-width: 5px;
+    border-style: solid;
+    border-width: 5px;
     border-radius: 25px;
-    outline-color: mediumaquamarine;
+    border-color: mediumaquamarine;
 }
 
 .animal_right {
-    display: flex;
-    justify-content: end;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    text-align: end;
+    grid-column-gap: 75px;
+}
+
+.animal {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
 }
