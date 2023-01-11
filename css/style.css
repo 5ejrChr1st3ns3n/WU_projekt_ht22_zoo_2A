@@ -35,9 +35,9 @@ h2 {
 header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background: rgb(50, 51, 52);
     height: 65px;
     width: 100%;
-    background-color: rgb(50, 51, 52);
     outline-style: solid;
     outline-color: mediumaquamarine;
     outline-width: 5px;
