@@ -8,31 +8,52 @@
     box-sizing: border-box;
 }
 
+h1 {
+   text-align: center;
+    font-size: 3rem; 
+}
+
 h2 {
     font-size: 2rem;
 }
 
-header {
-    height: 65px;
-    width: 100%;
-    background-color: rgb(50, 51, 52);
-    outline-style: solid;
-    outline-color: mediumaquamarine;
-    outline-width: 5px;
-    text-align: center;
-    font-size: 3rem;
+#back_button_menu {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: end; 
 }
 
-#footer {
+#back_button_animals {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 65px;
     width: 100%;
     background-color: rgb(50, 51, 52);
     outline-style: solid;
     outline-color: mediumaquamarine;
     outline-width: 5px;
-    text-align: center;
-    font-size: 3rem;
-    padding-top: 500px;
+    
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+    background-color: rgb(50, 51, 52);
+    outline-style: solid;
+    outline-color: mediumaquamarine;
+    outline-width: 5px;
+    font-size: 0.7rem;
 }
 
 
@@ -64,13 +85,8 @@ header {
 
 #main_picture:hover {
     border-width: 8px;
-    border-color: rgb(150, 255, 210);
+    border-color: aquamarine;
 }
-
-
-
-
-/*-------------------background picture*/
 
 #background_wrapper {
     width: 100%;
@@ -79,18 +95,41 @@ header {
 
 #background_picture {
     width: 100%;
+    height: 425px;
     outline-style: solid;
     outline-width: 5px;
     outline-color: mediumaquamarine;
 }
 
+#employee_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 100px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 100px;
+}
 
+#employee_text {
+    padding-top: 50px;
+}
+
+.employee_portrait {
+    width: 250px;
+    height: auto;
+}
 
 /*------------------------------------------------------------menu site------------------------------------------------------------*/
 
+#menu_title {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    padding-top: 50px;
+}
+
 #main_menu_wrapper {
     display: grid;
-    padding-top: 100px;
+    padding-top: 50px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     place-items: center;
     padding-left: 50px;
@@ -98,13 +137,18 @@ header {
 }
 
 .food_item {
+    flex-direction: column;
+    display: flex;
     outline-style: solid;
-    outline-width: 5px;
-    border-radius: 25px;
-    outline-color: mediumaquamarine;
+    outline-width: 2px;
+    border-radius: 35px;
+    outline-color: rgb(0, 85, 85);
     outline-offset: -5px;
-    width: 400px;
+    width: 430px;
     height: 800px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
     align-items: center;
 }
 
@@ -119,13 +163,22 @@ header {
 
 #seating_wrapper {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    grid-column-gap: 40px;
     padding-left: 75px;
     padding-right: 75px;
-    text-align: justify;
     padding-top: 175px;
-    width: 100%;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 40px;
+    padding-bottom: 100px;
+    text-align: justify;
+    align-items: center;
+}
+
+#seating_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
 }
 
 #seating_img {
@@ -137,18 +190,19 @@ header {
     border-color: mediumaquamarine;
 }
 
-#chefs {
-    padding-left: 75px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-}
-
 /*----------------------------------------------------------animal site------------------------------------------------------------*/
 
+#animal_title {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    padding-top: 50px;
+}
+
 #main_animal_wrapper {
-    padding-top: 100px;
+    padding-top: 25px;
     padding-left: 75px;
     padding-right: 75px;
+    padding-bottom: 100px;
 }
 
 #animal_img {
